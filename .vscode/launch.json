@@ -1,34 +1,33 @@
+// 为了方便调试，我们可以在.vscode文件夹下新建一个launch.json文件，用于配置调试环境。
+// launch.json文件内容如下：
+
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "name": "(gdb) 启动",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\program.exe",
-            "args": [],
+            "name": "MyLaunch_C++",  //调试配置的名称，任意你喜欢的有意义的名字均可
+            "preLaunchTask": "C/C++: g++.exe build active file",    //调试前执行的任务，就是之前配置的tasks.json中的label字段  **注意与tasks.json文件的关联
+            "type": "cppdbg",      //配置类型，对于C++程序只能为cppdbg
+            "request": "launch",   //请求配置类型，可以为launch（启动）或attach（附加）
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",    //调试程序的路径名称；这里要和tasks.json中配置为-o参数指定的输出文件一致尤其注意后缀名  **注意与tasks.json文件的关联
+            "args": [],         //调试传递参数，默认是空的
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,     //true显示外置的控制台窗口，false显示内置终端
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",           //**这里是你环境中mingw的gdb.exe[与g++.exe程序相同路径文件名不同]的路径哦；注意不是编译器g++.exe的路径 **注意**
             "setupCommands": [
                 {
-                    "description": "为 gdb 启用整齐打印",
+                    "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "将反汇编风格设置为 Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ]
         }
-
     ]
 }
