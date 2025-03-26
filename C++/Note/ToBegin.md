@@ -1,0 +1,207 @@
+课程地址： [C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+没有笔记的章节：
+1. 13- [BEST Visual Studio Setup for C++ Projects! - YouTube](https://www.youtube.com/watch?v=qeH9Xv_90KM&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=13)
+
+## To Begin
+### [Welcome to C++](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=1)
+访问硬件、直接硬件控制
+why use C++：编译器为target platform生成机械代码，包含CPU可以执行的实际指令
+
+### [How to Setup C++ on Windows ](https://www.youtube.com/watch?v=1OsGXuNA5cc&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=2)
+Vistual Studio！
+部署选择 Desktop development with C++
+
+> [!note] EXample 1：Helloworld！
+
+```cpp
+#include <iostream>
+
+int main()
+{
+	std::cout << "Hello World!" << std::endl;
+	/*将Hello world推进cout（控制台），再推进一个结束行*/
+	std::cin.get();
+	/*等待输入任何字符*/
+}
+```
+
+> 生成的exe在这里：C:\learnC\helloworld\x64\Debug
+
+参考资料：
+[Visual Studio Tools for Unity \| Microsoft Learn](https://learn.microsoft.com/zh-cn/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity?pivots=windows)
+
+### [How C++ Works](https://www.youtube.com/watch?v=SfGuIVzE_Os&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=5)
+
+> [!note] EXample 2：print Helloworld！
+```cpp
+#include <iostream>
+
+int main()
+{
+	std::cout .print("Hello World!").print(std::endl);
+	std::cin.get();
+}
+```
+preprocessor operator： `#include <iostream>`
+`main` function是程序的入口
+`<<` 【例1】is a function like .print【例2】
+
+配置：通用、C++、连接器（linker）
+F7：单独编译
+
+> [!note] EXample 3.1：print Helloworld: in MY LOG
+```cpp
+#include <iostream>
+
+void Log(const char* message)
+{
+	std::cout << message << std::endl;
+}
+int main()
+{
+	Log("Hello World!");
+	std::cin.get();
+}
+```
+
+> [!note] EXample 3.2：print Helloworld: in MY LOG by 2 files
+
+声明（declaration）：这个方程存在
+```cpp
+#include <iostream>
+
+void Log(const char* message);
+int main()
+{
+	Log("Hello World!");
+	std::cin.get();
+}
+```
+定义（definition）：这个方程是什么
+```cpp
+#include <iostream>
+
+void Log(const char* message)
+{
+	std::cout << message << std::endl;
+}
+```
+
+
+###  [How the C++ Compiler Works - YouTube](https://www.youtube.com/watch?v=3tIqpEmWMLI&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=6)
+> [!note] EXample 4.1：一个乘法
+```cpp
+int Multiply(int a, int b)
+{
+	int result = a*b;
+	return result;
+}
+```
+
+预处理：include、Define、if、if def、pragma
+
+#### hash include=直接调用
+> [!note] EXample 4.2：创建头文件：一个只包含`}`的文件↓
+```h
+}
+
+```
+
+> [!note] EXample 4.3：用头文件代替大括号的奇葩
+```cpp
+int Multiply(int a, int b)
+{
+	int result = a*b;
+	return result;
+#include "EndBrace.h"
+```
+
+
+> [!note] EXample 4.4：用int代替integer的奇葩
+```cpp
+#define INTEGER int
+
+INTEGER Multiply(int a, int b)
+{
+	INTEGER result = a * b;
+	return result;
+}
+```
+
+#### if=根据给定条件包含或排除代码
+
+> [!note] EXample 4.5：if true
+```cpp
+#if 1
+
+
+int Multiply(int a, int b)
+{
+	int result = a * b;
+	return result;
+}
+
+#endif
+```
+没有问题
+> [!note] EXample 4.6：if false
+```cpp
+#if 0
+int Multiply(int a, int b)
+{
+	int result = a * b;
+	return result;
+}
+#endif
+```
+↑代码全部消失
+
+#### 编译的实际导出
+> [!note] EXample 4.7：优化
+```cpp
+int Multiply(int a, int b)
+{
+	return a*b;
+}
+```
+
+如果a和b都是实数，没必要在程序里进行，这种叫 `常量折叠`。
+
+
+> [!note] EXample 4.8：log里的优化
+```cpp
+const char* Log(const char* message)
+{
+	return message;
+}
+
+int Multiply(int a, int b)
+{
+	Log("Multiply");
+	return a*b;
+}
+```
+
+### [How the C++ Linker Works](https://www.youtube.com/watch?v=H4s55GgAg0I&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=7)
+link的前提：必须有main函数
+
+> [!tip] error 
+> 开头为C，表示在编译期间出错
+> 开头为LNK，表示在连接期间出错
+
+`static` +function：只为在这个文件里翻译单元声明，可以不被link
+`inline` + function：采用actual function body来替换调用，也就是没有函数头
+不可重复方程名：包括在不同cpp文件里，或者在头文件里被多次调用。
+
+### 11. [How to DEBUG C++ in VISUAL STUDIO](https://www.youtube.com/watch?v=0ebzPwixrJA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=12)
+> 这节课是跟在 [C++ Header Files](https://www.youtube.com/watch?v=9RJTQmK0YPI&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=10) 之后的。
+
+Break Point &Reading Memory
+F9：set break point
+F10：step by
+F5：Auto。自动、局部变量、监视器
+	监视器：将变量放入watch，以观察它的变化
+
+调试>窗口>内存，可见内存变化
+	地址处输入：&+变量名，可前往该变量的内存地址
+	0x0000004AF56FF584  08 00 00 00 2e 00 00 00 00 00 00 00 00 00 00 00 c5 01 00 00  ................?...
