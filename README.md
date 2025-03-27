@@ -1,4 +1,5 @@
 # MYcodelearn
+使用软件：Obisidian、VScode
 
 ## Lisp
 
@@ -16,8 +17,13 @@
 
 ## Log
 
-2025-03-25：搬运一下C++的内容。 
+2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
+- 配置VScode环境：先找了一个教程，标题写着C++，结果用的C的编译器，大怒！
+- 搬运一下以前之前的学习进度：C++部分到7.4为止。
 
 2025-03-26：新学了一课，新增了C++23的环境。 
 - [Loops in C++ (for loops, while loops) - YouTube](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=19)
+- 研究不出来多文件怎么调试，遂听从意见#include大法启动。
 - 下载了微信的内测版，非常好，终于有夜间模式了。
+
+2025-03-27：疯狂星期四
