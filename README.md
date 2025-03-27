@@ -25,9 +25,11 @@
 
 2025-03-26：新学了一课，新增了C++23的环境。 
 
-- [Loops in C++ (for loops, while loops) - YouTube](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=19)
+- 进度：[Loops in C++ (for loops, while loops) - YouTube](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=19)
 - 研究不出来多文件怎么调试，遂听从意见#include大法启动。
 - 下载了微信的内测版，非常好，终于有夜间模式了。
 
 2025-03-27：疯狂星期四
 
+- 进度：https://www.youtube.com/watch?v=IzoFn3dfsPA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=17
+  - 今天学了控制流、指针、引用
