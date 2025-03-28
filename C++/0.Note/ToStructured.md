@@ -1,0 +1,628 @@
+## To Structured
+
+### [Variables in C++](https://www.youtube.com/watch?v=zB9RI8_wExo&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=8)
+
+存储：在内存中，堆栈（stack）堆（heap）
+大小：与类型相关
+> [!note] EXample 5.1：Int
+```cpp
+#include <iostream>
+
+int main()
+{
+	int variable = 8;//-2b -> 2b=2147483648
+	/*4 bytes=32bit data*/
+	std::cout << variable << std::endl;
+	int variable = 20;
+	std::cout << variable << std::endl;
+	std::cin.get();
+}
+```
+
+常见类型：
+
+```cpp
+unsigned int //2^32
+char cha//1 byte
+	cha = 'A'//用于存储字符
+	cha = 65 //还是会打出A
+short a//2 byte
+	a = 'A'//还是会打出65
+long //4 byte
+long long //8byte
+
+float var = 5.5f//浮点 4 byte
+double
+
+bool var = true/false //判断 1/0
+
+```
+
+/ 我们只能寻址一个byte，不能寻址一个bit，所以数据最小也是一个byte /
+
+> [!note] EXample 5.2：查询大小
+```cpp
+#include <iostream>
+
+int main()
+{
+	bool variable = false;	
+	std::cout << sizeof(bool) << std::endl;
+	// bool 可以换成其他类型
+	std::cin.get();
+}
+```
+
+> [!note] EXample 5.3：指针与引用：
+```cpp
+#include <iostream>
+
+int main()
+{
+	bool* variable = false;	
+	// *=指针，把*换成&=引用
+	std::cout << sizeof(bool) << std::endl;
+	std::cin.get();
+}
+```
+
+### [Functions in C++ ](https://www.youtube.com/watch?v=V9zuox47zr0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=9)
+
+方程是流程块捏（我猜）**Methods**
+对应class里的啥啥
+
+> [!note] EXample 6.1：一个乘法
+```cpp
+#include <iostream>
+int Multiply(int a, int b)
+{
+	return a * b;
+}
+int main()
+{
+	int result = Multiply(3, 2);
+	std::cout << result << std::endl;
+	std::cin.get();
+}
+```
+
+> [!note] EXample 6.2：多次调用乘法
+```cpp
+#include <iostream>
+int Multiply(int a, int b)
+{
+	return a * b;
+}
+int main()
+{
+	int result1 = Multiply(3, 2);
+	std::cout << result1 << std::endl;
+	std::cin.get();
+
+	int result2 = Multiply(5, 8);
+	std::cout << result2 << std::endl;
+	std::cin.get();
+
+	int result3 = Multiply(9, 15);
+	std::cout << result3 << std::endl;
+	std::cin.get();
+}
+```
+
+> [!note] EXample 6.3：将调用乘法也做成方程
+```cpp
+#include <iostream>
+int Multiply(int a, int b)
+{
+	return a * b;
+}
+
+void MultipluAndLog(int a, int b)
+{
+	int result = Multiply(a, b);
+	std::cout << result << std::endl;
+	std::cin.get();
+}
+int main()
+{
+	MultipluAndLog(3, 2);
+	MultipluAndLog(5, 8);
+	MultipluAndLog(9, 15);
+}
+```
+
+每调用一个函数，编译器都会生成一个调用指令（为该函数创建整个堆栈框架，参数、回值）当然还有inline，之后再谈
+
+mian函数：无需返回任何值，会假设返回了0（return 0;）
+
+declaration：to head
+definition：to cpp、translation unit
+
+###  10.  [C++ Header Files](https://www.youtube.com/watch?v=9RJTQmK0YPI&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=10)
+
+用于声明的公共区域。用带hash（#）的预处理命令，like `#inclue "xxx.h"`
+
+`#pragma once`：只包含这个文件一次，是一种头文件保护，防止头文件多次进入单个翻译单元。
+
+↑为啥要这个：因为可能会出现包含链
+
+更传统的用 
+```h
+#ifndef _LOG_H
+#difine _LOG_H
+……
+#endif
+```
+
+↑检查if内有没有Log.h，如果有，则在编译下包含以下代码，如果没有定义，那么就不包含。两种都可以，`#pragma once` 现在更常用。
+
+`<>` 、 `""` 是路径，前者是被包含文件夹里的文件，后者是目前的文件
+
+### 12. [CONDITIONS and BRANCHES in C++ (if statements) ](https://www.youtube.com/watch?v=qEgCT87KOfc&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=12)
+
+Notice: log.cpp exist here.
+
+> [!note] EXample 7.1：if是一种1、0判断
+```cpp
+ int main()
+{
+	int x = 6;
+	bool comparisonResult = x == 5;
+	if (comparisonResult == true)
+	{
+		Log("hello world");
+	}
+	
+	std::cin.get();
+}
+ ```
+
+if 内判断是否为正，如果在（）内输入1，则执行{}内命令行，如果在（）内输入0，则不执行，if是一个booling的过程。
+
+> [!note] EXample 7.2：简短版
+```cpp
+if (x == 5) Log("hello world");
+/* 最好还是分两行，好调试
+```
+
+> [!note] EXample 7.3：if else，也是个判断题
+```cpp
+int main()
+{
+	const char* ptr = nullptr;
+	if (ptr)
+		Log(ptr);
+	else
+		Log("Ptr is null!");
+	std::cin.get();
+}
+```
+
+> [!note] EXample 7.4：else if 其实是else里嵌套了一个if
+```cpp
+int main()
+{
+	const char* ptr = "Hello";
+	if (ptr)
+		Log(ptr);
+	else if(ptr == "Hello")
+		Log("ptr is Hello!");
+	else
+		Log("Ptr is null!");
+	std::cin.get();
+}
+```
+
+### 14. [Loops in C++ (for loops, while loops)](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=14)
+
+TOPIC：for 以及 while 循环
+
+> [!note] EXample 8.1：for 循环
+```cpp
+int main()
+{
+    for(int i = 0; i < 5; i++)
+    {
+        Log("Hello World");
+    }
+}
+```
+
+> [!note] EXample 8.1.3：for 循环超凡版
+```cpp
+int main()
+{
+    int i = 0;
+    bool condition = true;
+    for(; condition; )
+    {
+        Log("Hello World");
+        i++
+        if(!(i < 5))
+        {
+            condition = false;
+
+        }
+    }
+    std::cin.get();
+}
+```
+
+> [!note] EXample 8.2：while 循环
+```cpp
+int i = 0;
+
+    while (i < 5)
+
+    {
+
+        Log("Hello World");
+
+        i++ ;
+
+    }
+```> [!note] EXample 8.1：for 循环
+```cpp
+int main()
+{
+    for(int i = 0; i < 5; i++)
+    {
+        Log("Hello World");
+    }
+}
+```
+
+> [!note] EXample 8.1.3：for 循环超凡版
+```cpp
+int main()
+{
+    int i = 0;
+    bool condition = true;
+    for(; condition; )
+    {
+        Log("Hello World");
+        i++
+        if(!(i < 5))
+        {
+            condition = false;
+
+        }
+    }
+    std::cin.get();
+}
+```
+
+> [!note] EXample 8.2：while 循环
+```cpp
+int i = 0;
+
+    while (i < 5)
+
+    {
+
+        Log("Hello World");
+
+        i++ ;
+
+    }
+```
+
+> [!note] EXample 8.3：do while 循环
+```cpp
+int main()
+
+{
+
+    for(int i = 0; i < 5; i++)
+
+    {
+
+        if(i%2 == 0)
+
+        continue;
+
+        Log("Hello World");
+
+        }
+
+}
+```
+
+### 15. [Control Flow in C++ (continue, break, return) ](https://www.youtube.com/watch?v=a3IZ8WaIFAA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=16)
+
+continue：inside the loop，to next iteration
+break：for loop or switch, mean: get out the loop
+return: get out the function, **need a value**
+
+> [!note] EXample 9.1：continue when 1%2==0 othwise output helloworld
+```cpp
+    for(int i = 0; i < 5; i++)
+
+    {
+
+        if(i%2 == 0)
+
+        continue;
+
+        Log("Hello World");
+
+        std::cout << i << std::endl;
+
+        }
+```
+
+output:
+> Hello World
+> 1
+> Hello World
+> 3
+
+> [!note] EXample 9.2：break when 1%2==0 othwise output helloworld
+```cpp
+    for(int i = 0; i < 5; i++)
+
+    {
+
+        if(i%2 == 0)
+
+        break;
+
+        Log("Hello World");
+
+        std::cout << i << std::endl;
+
+        }
+```
+
+output:
+> 
+
+> [!note] EXample 9.3：return 0 when 1%2==0 othwise output helloworld
+```cpp
+    for(int i = 0; i < 5; i++)
+
+    {
+
+        if((i+1)%2 == 0)
+
+        return 0;
+
+        Log("Hello World");
+
+        std::cout << i << std::endl;
+
+        }
+```
+
+output:
+> Hello World
+> 0
+
+但是直接跳出了函数，无法读到循环外的 `std::cin.get();`，程序会自动关闭
+
+### 16. [POINTERS in C++](https://www.youtube.com/watch?v=DTxHyVn0ODg&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=16)
+
+只讲raw pointers
+
+> [!note] EXample 10.1：空指针
+```cpp
+#include<iostream>
+
+#define Log(x) std::cout << x << std::endl
+
+int main()
+
+{
+
+    void* ptr = 0;//空指针，但本质不能赋予0
+
+    void* ptr2 = NULL;//正常空指针
+
+    void* ptr3 = nullptr;//cpp关键词
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 10.2：指向i，无法修改i
+```cpp
+int main()
+
+{
+
+    int i = 8;
+
+    void* ptr = &i; //指针指向i,询问i的内存位置并保存
+
+    *ptr; //解引用，输出i的值
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 10.2.2：指向i，修改i
+```cpp
+int main()
+
+{
+
+    int i = 8;
+
+    int* ptr = &i; //指针指向i,询问i的内存位置并保存
+
+    *ptr= 10; //解引用，输出i的值
+
+    Log(i);
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 10.3：指向i，修改i
+```cpp
+int main()
+
+{
+
+    int i = 8;
+
+    int* ptr = &i; //指针指向i,询问i的内存位置并保存
+
+    *ptr= 10; //解引用，输出i的值
+
+    Log(i);
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 10.4：双指针
+```cpp
+int main()
+
+{
+
+    char* buffer = new char[8];//分配8字节内存
+
+    memset(buffer, 0, 8);//给buffer赋予一个8字节的0
+
+    char** ptr = &buffer;//指针指向buffer,询问buffer的内存位置并保存
+
+  
+
+    delete[] buffer;//释放内存
+
+    std::cin.get();
+
+}
+```
+
+### [REFERENCES in C++ - YouTube](https://www.youtube.com/watch?v=IzoFn3dfsPA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=17)
+
+和指针的区别：
+- 不能为空。
+- 引用不能修改绑定对象。
+	- `int& ref = a;` 不能修改
+	- `int* ref = &a;` 可以修改，`ref = &b;`
+- 引用不占空间，但是作为成员变量或者函数参数的时候会占。
+
+拓展：
+- （&）左值引用和（&&）右值引用
+	- 左值是指既能出现在等号左边也能出现在等号右边的变量(或表达式)，**右值则只能出现在等号右边**
+	- 返回左值引用的函数，连同赋值、下标、解引用和前置递增/递减运算符Q ，都是返回左值的表达式
+	- 返回非引用类型/右值引用的函数，连同算术、关系、位以及后置递增/递减运算符，都返回右值的表达式
+	- 左值持久，右值短暂，左值有持久的状态，而右值要么是字面常量，要么是在表达式求值Q过程中创建的临时对象(将要被销毁的对象)。
+
+> [!note] EXample 11.1：references
+```cpp
+int main()
+
+{
+
+    int a = 5;
+
+    int& ref = a;
+
+    ref = 2;
+
+    Log(a); //输出2
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 11.2：references ++
+```cpp
+void Increment(int& value)
+
+{
+
+    value++;
+
+}
+
+  
+
+int main()
+
+{
+
+    int a = 5;
+
+    Increment(a);
+
+    // Increment(a) is the same as Increment(ref) in 11.1.cpp
+
+    Log(a); //outputs 6
+
+    std::cin.get();
+
+}
+```
+
+> [!note] EXample 11.3：references and pointer
+```cpp
+void Increment(int* value)
+
+{
+
+    (*value)++;//先解引用，再加1
+
+    //*value++;//这里的*是解引用，先加1，再解引用
+
+}
+
+  
+
+int main()
+
+{
+
+    int a = 5;
+
+    Increment(&a);//&a的意思是询问a的内存位置并保存
+
+    //这里的&是取地址，意思是将a的内存地址传递给Increment函数
+
+    Log(a); //输出5
+
+    std::cin.get();
+}
+//和11.2一个作用。
+```
+
+> [!note] EXample 11.4：指针是可以多次使用的引用
+```cpp
+int main()
+
+{
+
+    int a = 5;
+
+    int b = 8;
+
+    int* ptr = &a;
+
+    *ptr = 10;
+
+    ptr = &b;
+
+    *ptr = 12;
+
+    Log(a);
+
+    Log(b);
+
+    std::cin.get();
+
+}
+```
+
+output
+> 10
+> 12

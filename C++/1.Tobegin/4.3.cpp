@@ -2,4 +2,5 @@ int Multiply(int a, int b)
 {
 	int result = a*b;
 	return result;
-#include "EndBrace.h"
+#include "4.2.h"
+

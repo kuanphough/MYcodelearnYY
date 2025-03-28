@@ -1,5 +1,6 @@
 # MYcodelearn
-使用软件：Obisidian、VScode
+Note：Obisidian
+IDE：VScode
 
 ## Lisp
 
@@ -7,7 +8,7 @@
 
 ## C++
 
-- 课程：[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- 课程：The Cherno[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 - 教科书：[C++ Primer 5](https://cpp-primer.pages.dev/)
 
 ### 参考页面
@@ -21,7 +22,8 @@
 2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
 
 - 配置VScode环境：先找了一个教程，标题写着C++，结果用的C的编译器，大怒！
-- 搬运一下以前之前的学习进度：C++部分到7.4为止。
+- 整合一下以前之前的学习进度：C++部分到7.4为止。
+  - 7.4之前抄的note内容，极大概率无法运行，VS的私人仓库没法搬运，环境完全不一样。
 
 2025-03-26：新学了一课，新增了C++23的环境。 
 
@@ -33,3 +35,7 @@
 
 - 进度：https://www.youtube.com/watch?v=IzoFn3dfsPA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=17
   - 今天学了控制流、指针、引用
+
+2025-03-28：疯狂星期五
+
+- 
