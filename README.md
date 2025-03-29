@@ -49,5 +49,6 @@ Thanks for help: Runrun, Arfey, Yichuan
 
 2025-03-29：摆烂星期六
 
-- 进度：https://www.youtube.com/watch?v=V-BFlMrBtqQ&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=22
-  - 类与结构中的静态变量
+- 进度：https://www.youtube.com/watch?v=x55jfOd5PEE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=23
+  - 类与结构中的静态变量、枚举
+  - 碎碎念：明天要去构造函数了。
