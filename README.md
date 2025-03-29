@@ -2,6 +2,8 @@
 Note：Obisidian
 IDE：VScode
 
+Thanks for help: Runrun, Arfey, Yichuan
+
 ## Lisp
 
 - 教科书：计算机程序的构造和解释
@@ -14,7 +16,9 @@ IDE：VScode
 ### 参考页面
 
 - VSCode配置环境教程：[# VS Code 配置 C/C++ 编程运行环境（保姆级教程）](https://zhuanlan.zhihu.com/p/15008208441)
+  - test和launch配置有问题，直接抄我的代码，把地址换成自己的就行。
 - [VS Code配置C++语言开发与调试环境(超详细)]  (https://www.cnblogs.com/xiaml/articles/17421264.html)
+  - 参考了这里的test和launch
 - [# C++20 新特性全在这一张图里了](https://zhuanlan.zhihu.com/p/472805041)
 
 ## Log
@@ -38,4 +42,11 @@ IDE：VScode
 
 2025-03-28：疯狂星期五
 
-- 
+- 进度：https://www.youtube.com/watch?v=f3FVU-iwNuA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=21
+  - 类、结构、例子：一个输出记录的类、静态
+
+
+2025-03-29：摆烂星期六
+
+- 进度：https://www.youtube.com/watch?v=V-BFlMrBtqQ&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=22
+  - 类与结构中的静态变量
