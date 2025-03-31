@@ -1,26 +1,44 @@
 # MYcodelearn
-Note：Obisidian
 
 IDE：VScode
 
-Thanks for help: Runrun, Arfey, Yichuan
+笔记：Obisidian
 
-## Lisp
+游览器插件：Language Reactor、
 
-- 教科书：计算机程序的构造和解释
+Thanks for help: Runrun, Arfey, Yichuan, 
+
+webside supporter:[Youtube](https://www.youtube.com/), [stackoverflow](https://stackoverflow.com/)
 
 ## C++
 
 - 课程：The Cherno[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 - 教科书：[C++ Primer 5](https://cpp-primer.pages.dev/)
 
-### 参考页面
+## Math
+### Cryptography
 
+- Coursera:[密码学 I](https://www.coursera.org/learn/crypto)
+  - 课本：[离散数学](https://en.wikibooks.org/wiki/High_School_Mathematics_Extensions/Discrete_Probability)， [A Graduate Course in Applied Cryptography](https://toc.cryptobook.us/), [数论](https://shoup.net/ntb/ntb-v2.pdf)
+
+- Offical Lesson: [CS255 Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/)
+
+## Lisp
+
+- 教科书：计算机程序的构造和解释
+
+## 参考页面:
+
+环境：
 - VSCode配置环境教程：[# VS Code 配置 C/C++ 编程运行环境（保姆级教程）](https://zhuanlan.zhihu.com/p/15008208441)
   - test和launch配置有问题，直接抄我的代码，把地址换成自己的就行。
 - [VS Code配置C++语言开发与调试环境(超详细)]  (https://www.cnblogs.com/xiaml/articles/17421264.html)
   - 参考了这里的test和launch
 - [# C++20 新特性全在这一张图里了](https://zhuanlan.zhihu.com/p/472805041)
+
+参考攻略：
+- [CS自学指南](https://csdiy.wiki/)
+
 
 ## Log
 
@@ -51,4 +69,9 @@ Thanks for help: Runrun, Arfey, Yichuan
 
 - 进度：https://www.youtube.com/watch?v=x55jfOd5PEE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=23
   - 类与结构中的静态变量、枚举
-  - 碎碎念：明天要去构造函数了。
+
+2025-03-31：牛马星期一
+- 进度：https://www.youtube.com/watch?v=X8nYM8wdNRE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=25
+  - 构造函数、析构函数
+- 被推荐了**language reactor**，这是真的神。
+- cherno讲析构一半不讲了，去问润润！
