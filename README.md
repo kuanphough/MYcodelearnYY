@@ -1,14 +1,26 @@
 # MYcodelearn
-
+## 启动！
+### 环境
 IDE：VScode
 
 笔记：Obisidian
 
-游览器插件：Language Reactor、
+游览器插件：Language Reactor、Global Speed
 
-Thanks for help: Runrun, Arfey, Yichuan, 
+Thanks for help: Runrun, Arfey, Yichuan
 
-webside supporter:[Youtube](https://www.youtube.com/), [stackoverflow](https://stackoverflow.com/)
+webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://stackoverflow.com/)
+
+### 参考页面:
+
+环境：
+- VSCode配置环境教程：[# VS Code 配置 C/C++ 编程运行环境（保姆级教程）](https://zhuanlan.zhihu.com/p/15008208441)
+  - test和launch配置有问题，直接抄我的代码，把地址换成自己的就行。
+- [VS Code配置C++语言开发与调试环境(超详细)]  (https://www.cnblogs.com/xiaml/articles/17421264.html)
+  - 参考了这里的test和launch
+
+参考攻略：
+- [CS自学指南](https://csdiy.wiki/)
 
 ## C++
 
@@ -26,18 +38,6 @@ webside supporter:[Youtube](https://www.youtube.com/), [stackoverflow](https://s
 ## Lisp
 
 - 教科书：计算机程序的构造和解释
-
-## 参考页面:
-
-环境：
-- VSCode配置环境教程：[# VS Code 配置 C/C++ 编程运行环境（保姆级教程）](https://zhuanlan.zhihu.com/p/15008208441)
-  - test和launch配置有问题，直接抄我的代码，把地址换成自己的就行。
-- [VS Code配置C++语言开发与调试环境(超详细)]  (https://www.cnblogs.com/xiaml/articles/17421264.html)
-  - 参考了这里的test和launch
-- [# C++20 新特性全在这一张图里了](https://zhuanlan.zhihu.com/p/472805041)
-
-参考攻略：
-- [CS自学指南](https://csdiy.wiki/)
 
 
 ## Log
