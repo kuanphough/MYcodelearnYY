@@ -25,6 +25,7 @@ public:
 int main() 
 {
     std::cout << sizeof(Entity) << std::endl;
+    // std::cout << sizeof(Player) << std::endl;
     Player player;
     player.Move(5, 10);
     player.x = 5;
@@ -33,5 +34,10 @@ int main()
     std::cin.get();
 }
 
+//sizeof(Entity)
 // Output:
-// Player: 0x7ffeedc0b8f0
+// 8
+
+//sizeof(Player)
+//Output:
+//12
