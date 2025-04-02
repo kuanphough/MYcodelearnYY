@@ -20,7 +20,7 @@ class Entity
     {
         std::cout << X << ","<< Y << std::endl;
     }
-}
+};
 
 class Log 
 {
@@ -35,7 +35,7 @@ class Log
 int main()
 {
     Log::Write();//只用我的class
-    Log 1;//这里会报错
+//    Log 1;//这里会报错
     Entity e(5.0f, 10.0f);
     e.Print();
 

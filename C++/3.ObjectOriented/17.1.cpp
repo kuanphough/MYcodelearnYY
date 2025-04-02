@@ -15,14 +15,12 @@ class Entity
         X = x;
         Y = y;
     }
-    {
-
-    }
+    
     void Print()
     {
         std::cout << X << ","<< Y << std::endl;
     }
-}
+};
 
 int main()
 {

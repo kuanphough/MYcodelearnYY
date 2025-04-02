@@ -6,10 +6,10 @@ public:
 enum Level
 {
     LevelError = 0,LevelWarning = 1,LevelInfo = 2
-}
+};
 
 private:
-    Level m_LogLevel = Info;//限制在Level范围内
+    Level m_LogLevel = LevelInfo;//限制在Level范围内
 public:
     void Setlevel(Level level)
     {
@@ -35,7 +35,7 @@ public:
 int main()
 {
     Log log;
-    log.Setlevel(Log::Error);// log类型（命名空间）里的Error类型。
+    log.Setlevel(Log::LevelError);// log类型（命名空间）里的Error类型。
     log.Warn("Hello!");
     log.Error("Hello!");
     log.Info("Hello!");

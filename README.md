@@ -7,7 +7,7 @@ IDE：VScode
 
 游览器插件：Language Reactor、Global Speed
 
-Thanks for help: Runrun, Arfey, Yichuan
+Thanks for help: 润润, 冬雪汐, 一川
 
 webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://stackoverflow.com/)
 
@@ -24,7 +24,8 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 ## C++
 
-- 课程：The Cherno[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- 课程：【The Cherno】[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+  - 他人笔记：[text](https://github.com/Nagi-ovo/Cherno-CPP-Notes)
 - 教科书：[C++ Primer 5](https://cpp-primer.pages.dev/)
 
 ## Math
@@ -35,7 +36,9 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 - Offical Lesson: [CS255 Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/)
 
-## Lisp
+## 算法
+
+### Lisp
 
 - 教科书：计算机程序的构造和解释
 
@@ -75,3 +78,6 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - 构造函数、析构函数
 - 被推荐了**language reactor**，这是真的神。
 - cherno讲析构一半不讲了，去问润润！
+
+2025-04-02：牛马星期三，到公司太早，不想工作，遂C++
+- 进度：类的继承

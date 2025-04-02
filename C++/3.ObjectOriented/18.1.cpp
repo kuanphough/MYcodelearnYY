@@ -20,7 +20,7 @@ class Entity
     {
         std::cout << X << ","<< Y << std::endl;
     }
-}
+};
 
 void Function()
     {
