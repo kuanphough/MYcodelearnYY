@@ -82,3 +82,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 2025-04-02：牛马星期三，到公司太早，不想工作，遂C++
 - 进度：https://www.youtube.com/watch?v=UWAdd13EfM8&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=27
   - 类的继承、虚函数
+
+2025-04-07：牛马星期一，中午摸一会儿
+- 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=30
+  - 纯虚函数、可见性
