@@ -86,3 +86,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 2025-04-07：牛马星期一，中午摸一会儿
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=30
   - 纯虚函数、可见性
+
+2025-04-07：摸鱼星期二，生病中
+- 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=31
+  - 数组
