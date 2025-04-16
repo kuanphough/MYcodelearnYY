@@ -15,7 +15,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 环境：
 - VSCode配置环境教程：[# VS Code 配置 C/C++ 编程运行环境（保姆级教程）](https://zhuanlan.zhihu.com/p/15008208441)
-  - test和launch配置有问题，直接抄我的代码，把地址换成自己的就行。
+  - 该文中的test和launch配置不符合C++，可以试着把本库里的test和launch，更换成自己的地址。
 - [VS Code配置C++语言开发与调试环境(超详细)]  (https://www.cnblogs.com/xiaml/articles/17421264.html)
   - 参考了这里的test和launch
 
@@ -25,7 +25,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 ## C++
 
 - 课程：【The Cherno】[C++ - YouTube](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
-  - 他人笔记：[text](https://github.com/Nagi-ovo/Cherno-CPP-Notes)
+  - 前辈笔记：[Cherno C++ 学习笔记 - Jesse Zhang](https://github.com/Nagi-ovo/Cherno-CPP-Notes)
 - 教科书：[C++ Primer 5](https://cpp-primer.pages.dev/)
 
 ## Math
@@ -90,3 +90,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 2025-04-15：摸鱼星期二，生病中
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=31
   - 数组
+
+2025-04-16：摸鱼星期三，生病中
+- 进度：https://www.youtube.com/watch?v=FeHZHF0f2dw&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=32
+  - string
