@@ -42,7 +42,6 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 - 教科书：计算机程序的构造和解释
 
-
 ## Log
 
 2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
