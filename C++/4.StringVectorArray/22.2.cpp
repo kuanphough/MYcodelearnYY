@@ -22,3 +22,4 @@ int main()
     strcpy(s, name.c_str());  // 将 C++ 字符串复制到 C 字符串中，c_str() 返回一个指向字符串数据的指针
 
 }
+

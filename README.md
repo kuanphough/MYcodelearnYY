@@ -93,3 +93,6 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 2025-04-16：摸鱼星期三，生病中
 - 进度：https://www.youtube.com/watch?v=FeHZHF0f2dw&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=32
   - string
+
+2025-05-08：新电脑到了，该学习了（确信）
+- 
