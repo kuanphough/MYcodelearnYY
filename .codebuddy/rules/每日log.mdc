@@ -1,9 +1,17 @@
 ---
-description: 
+description: 是否结束今天的学习，更新每日Log
 alwaysApply: false
 enabled: true
-updatedAt: 2026-01-13T14:00:05.536Z
+updatedAt: 2026-01-13T16:21:26.099Z
 provider: 
 ---
 
-在README.md 补充或者新建今天的log
+在README.md 补充或者新建今天的log，循序以下步骤：
+- 调用今天修改过的文件、今天创建的文件，总结用户进行的操作；
+- 调用用户当天与智能体的对话，结合今日修改的文件，深化总结；
+- 将总结写入README.md  ## Log
+
+如修改过C++文件夹内的文件，更新C++\0.学习总览.md
+- 更新第3行【最后更新：时间】
+- 更新## 学习时间线
+- 其他请自行考虑更新内容
