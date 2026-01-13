@@ -119,7 +119,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - `std::string` 提供了更多的功能和安全性
   - 空终止符 `\0` 的重要性
 
-2026-01-13（续）：C++学习内容查漏补缺分析
+2026-01-13（续）：C++学习内容查漏补缺分析与学习规划
 - 使用 CodeBuddy AI 助手深入分析了 C++ 文件夹的所有学习笔记
 - 分析了 0.Note 文件夹下的 4 个笔记文件和 72 个代码示例
 - 评估了当前学习进度：约 65% 的 C++ 基础核心内容
@@ -136,11 +136,31 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - 类型转换（dynamic_cast、const_cast、reinterpret_cast）
   - 拷贝控制（拷贝构造、拷贝赋值、移动语义）
   - 现代 C++ 特性（auto、decltype、for-each、std::function、std::tuple）
-- 更新了 C++ 学习总览文档的"下一步学习计划"部分
-  - 规划了 12 个学习阶段（阶段五到阶段十二）
-  - 每个阶段详细列出了知识点和对应笔记文件名
-  - 制定了实践项目建议（初级、中级、高级）
-  - 创建了学习优先级总结表
+- 分析了 The Cherno C++ 课程（第5-90课）并与查漏补缺内容进行匹配
+- 创建了 Cherno 课程与学习阶段的详细对应关系表
+- 制定了 12 个学习阶段（阶段五到阶段十二），每个阶段包含详细知识点和对应笔记文件名
+- 制定了 21 个待创建笔记文件的清单，按学习顺序和优先级组织
+- 识别出 Cherno 课程几乎完全覆盖了查漏补缺中的高优先级内容
 - 确认了学习优势：底层理解扎实、面向对象深入、实践丰富、学习记录完整
 - 制定了清晰的学习路线：从智能指针和 STL 容器开始，逐步学习 Lambda、算法、模板、异常处理等
+- 根据建议重命名了笔记文件和示例文件夹：
+  - 1.ToBegin.md → 1.CompilerAndEnvironment.md（编译原理与环境配置）
+  - 2.ToStructured.md → 2.DataAndControl.md（数据类型与控制流）
+  - 4.StringVectorArray.md → 4.ArraysAndStrings.md（数组与字符串）
+  - 5.KeyWord.md → 5.ConstAndModifiers.md（const 与修饰符）
+  - 对应的示例文件夹也同步重命名
+- 更新了 C++ 学习总览文档：
+  - 新增 Cherno 课程对应关系表
+  - 更新各学习阶段中的课程对应关系
+  - 更新笔记索引，完善待创建笔记列表
+  - 更新学习优先级总结表
+
+2026-01-14：笔记文件重命名与学习规划完善
+- 根据 CodeBuddy AI 助手的建议，优化了笔记文件命名，使其更清晰准确
+- 统一了命名风格，使用驼峰命名法（如 CompilerAndEnvironment）
+- 修正了拼写错误（KeyWord → ConstAndModifiers）
+- 同步更新了所有示例文件夹名称
+- 完善了学习总览中的 Cherno 课程对应关系
+- 制定了详细的待创建笔记清单，包含文件名、主题、对应课程、学习阶段和优先级
+- 明确了学习路径：按照 Cherno 课程第35课开始逐步学习，每学完一个主题创建对应笔记
 
