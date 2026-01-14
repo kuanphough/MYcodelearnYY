@@ -44,7 +44,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 ##  Log
 
-### 2025-03：环境搭建与基础学习
+### 2025-03：环境搭建与基础学习\面向对象入门
 
 #### 2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
 
@@ -63,8 +63,6 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 - 进度：https://www.youtube.com/watch?v=IzoFn3dfsPA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=17
   - 今天学了控制流、指针、引用
 
-### 2025-03：面向对象入门
-
 #### 2025-03-28：疯狂星期五
 
 - 进度：https://www.youtube.com/watch?v=f3FVU-iwNuA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=21
@@ -81,7 +79,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 - 被推荐了**language reactor**，这是真的神。
 - cherno讲析构一半不讲了，去问润润！
 
-### 2025-04：继承与多态
+### 2025-04：继承与多态\容器与字符串
 
 #### 2025-04-02：牛马星期三，到公司太早，不想工作，遂C++
 - 进度：https://www.youtube.com/watch?v=UWAdd13EfM8&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=27
@@ -90,8 +88,6 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 #### 2025-04-07：牛马星期一，中午摸一会儿
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=30
   - 纯虚函数、可见性
-
-### 2025-04：容器与字符串
 
 #### 2025-04-15：摸鱼星期二，生病中
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=31
@@ -204,7 +200,7 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - for(初始化; 条件; 增量) 的三个部分都可以省略
   - 分号必须保留，用于分隔三个部分
   - 展开形式与标准 for 循环等价
-- 在笔记第134行补充了 inline 原理的简要总结（约80字）
+  - 在笔记第134行补充了 inline 原理的简要总结（约80字）
 - 为 README.md 的 Log 部分按时间阶段添加了分类标题：
   - 2025-03：环境搭建与基础学习
   - 2025-03：面向对象入门
@@ -212,4 +208,23 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - 2025-04：容器与字符串
   - 2025-05：设备更新与暂停
   - 2026-01：AI辅助学习与系统化整理
+
+#### 2026-01-15：完成《三体 1》科学化神异论文写作
+
+- 完成了《当代文学研究期末作业 4k以内.md》的写作
+- 论文主题：科学神话：论《三体 1》中科学化的神异
+- 主要内容包括：
+  - 引言：托多罗夫奇幻三分法与《三体 1》的叙事策略
+  - 智子技术的科学化神异：质子二维展开、集成电路蚀刻、维度收缩、量子感应阵列
+  - 三体文明的神化叙事：从视觉奇观到神迹计划的宗教意义
+  - 降临派驯服：三体文明通过神迹将地球异己力量置于被观察、被操控的客体地位
+  - 三体VR游戏作为现代神话书写：借鉴地球历史、跨文明的神话编织策略
+  - 结语：运用吕大吉四要素说（宗教观念、宗教感情、宗教行为、宗教组织）总结科学神话
+- 根据原著《三体 1》精确校对智子技术描述，确保论文内容与小说一致
+- 参考当代神话学研究成果（列维-斯特劳斯、埃利奥特、米尔恰·伊利亚德）深化理论分析
+- 引用刘慈欣原文论述"现代神话"概念
+- 通过吕大吉四要素说框架，将神明、神迹、神话的宗教要素转化为科学神话的核心维度
+- 最终点题"科学神话"：以科学话语为骨架，以神话叙事为血肉，将神异内化于技术
+
+
 
