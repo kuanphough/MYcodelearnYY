@@ -44,60 +44,73 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
 
 ##  Log
 
-2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
+### 2025-03：环境搭建与基础学习
+
+#### 2025-03-25：收到公司电脑不能用VS Community的噩耗，转战VScode。
 
 - 配置VScode环境：先找了一个教程，标题写着C++，结果用的C的编译器，大怒！
 - 整合一下以前之前的学习进度：C++部分到7.4为止。
   - 7.4之前抄的note内容，极大概率无法运行，VS的私人仓库没法搬运，环境完全不一样。
 
-2025-03-26：新学了一课，新增了C++23的环境。 
+#### 2025-03-26：新学了一课，新增了C++23的环境。
 
 - 进度：[Loops in C++ (for loops, while loops) - YouTube](https://www.youtube.com/watch?v=_1AwR-un4Hk&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=19)
 - 研究不出来多文件怎么调试，遂听从意见#include大法启动。
 - 下载了微信的内测版，非常好，终于有夜间模式了。
 
-2025-03-27：疯狂星期四
+#### 2025-03-27：疯狂星期四
 
 - 进度：https://www.youtube.com/watch?v=IzoFn3dfsPA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=17
   - 今天学了控制流、指针、引用
 
-2025-03-28：疯狂星期五
+### 2025-03：面向对象入门
+
+#### 2025-03-28：疯狂星期五
 
 - 进度：https://www.youtube.com/watch?v=f3FVU-iwNuA&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=21
   - 类、结构、例子：一个输出记录的类、静态
 
-
-2025-03-29：摆烂星期六
+#### 2025-03-29：摆烂星期六
 
 - 进度：https://www.youtube.com/watch?v=x55jfOd5PEE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=23
   - 类与结构中的静态变量、枚举
 
-2025-03-31：牛马星期一
+#### 2025-03-31：牛马星期一
 - 进度：https://www.youtube.com/watch?v=X8nYM8wdNRE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=25
   - 构造函数、析构函数
 - 被推荐了**language reactor**，这是真的神。
 - cherno讲析构一半不讲了，去问润润！
 
-2025-04-02：牛马星期三，到公司太早，不想工作，遂C++
+### 2025-04：继承与多态
+
+#### 2025-04-02：牛马星期三，到公司太早，不想工作，遂C++
 - 进度：https://www.youtube.com/watch?v=UWAdd13EfM8&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=27
   - 类的继承、虚函数
 
-2025-04-07：牛马星期一，中午摸一会儿
+#### 2025-04-07：牛马星期一，中午摸一会儿
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=30
   - 纯虚函数、可见性
 
-2025-04-15：摸鱼星期二，生病中
+### 2025-04：容器与字符串
+
+#### 2025-04-15：摸鱼星期二，生病中
 - 进度：https://www.youtube.com/watch?v=ENDaJi08jCU&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=31
   - 数组
 
-2025-04-16：摸鱼星期三，生病中
+#### 2025-04-16：摸鱼星期三，生病中
 - 进度：https://www.youtube.com/watch?v=FeHZHF0f2dw&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=32
   - string
 
-2025-05-08：新电脑到了，该学习了（确信）
+### 2025-05：设备更新与暂停
+
+#### 2025-05-08：新电脑到了，该学习了（确信）
 - 【没学】
 
-2026-01-13：回顾学习进度、深入理解 C++ 指针与 const【从这里开始，Log都是AI生成的，这句话是最后的人类留言】
+### 2026-01：AI辅助学习与系统化整理
+
+#### 2026-01-13：回顾学习进度、深入理解 C++ 指针与 const
+**【从这里开始，Log都是AI生成的，这句话是最后的人类留言】**
+
 - 使用CodeBuddy AI助手协助整理笔记和创建文档
 - 系统总结了C++学习笔记：入门基础、结构化编程、面向对象、标准容器
 - 创建了C++学习总览文档（`C++/0.学习总览.md`），包含学习路线图、时间线、学习成果和下一步计划
@@ -119,7 +132,8 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - `std::string` 提供了更多的功能和安全性
   - 空终止符 `\0` 的重要性
 
-2026-01-13（续）：C++学习内容查漏补缺分析与学习规划
+#### 2026-01-13（续）：C++学习内容查漏补缺分析与学习规划
+
 - 使用 CodeBuddy AI 助手深入分析了 C++ 文件夹的所有学习笔记
 - 分析了 0.Note 文件夹下的 4 个笔记文件和 72 个代码示例
 - 评估了当前学习进度：约 65% 的 C++ 基础核心内容
@@ -155,7 +169,8 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - 更新笔记索引，完善待创建笔记列表
   - 更新学习优先级总结表
 
-2026-01-14：笔记文件重命名与学习规划完善
+#### 2026-01-14：笔记文件重命名与学习规划完善
+
 - 根据 CodeBuddy AI 助手的建议，优化了笔记文件命名，使其更清晰准确
 - 统一了命名风格，使用驼峰命名法（如 CompilerAndEnvironment）
 - 修正了拼写错误（KeyWord → ConstAndModifiers）
