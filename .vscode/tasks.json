@@ -2,9 +2,9 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-		{
-			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
+	{
+		"type": "shell",  // 使用 shell 类型执行编译命令（VSCode 不支持 "cppbuild" 类型）
+		"label": "C/C++: g++.exe build active file",
 			"command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
 			//"command": "D:\\NoHair\\MSYS2\\ucrt64\\bin\\g++.exe",
 			"args": [
@@ -19,8 +19,20 @@
 				//"cwd": "D:\\NoHair\\MSYS2\\ucrt64\\bin"
 			},
 			"problemMatcher": [
-				"$gcc"
+				{
+					"fileLocation": ["absolute"],
+					"pattern": {
+						"regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+						"file": 1,
+						"line": 2,
+						"column": 3,
+						"severity": 4,
+						"message": 5
+					}
+				}
 			],
+			// 原本的 "$gcc" 问题匹配器已废弃（VSCode 不再支持字符串形式），
+			// 现在使用正则表达式模式来解析 g++ 编译器的错误输出
 			"group": {
 				"kind": "build",
 				"isDefault": true
