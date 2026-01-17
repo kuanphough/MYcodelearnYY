@@ -228,6 +228,12 @@ webside supporter: [Youtube](https://www.youtube.com/), [stackoverflow](https://
   - 理解了笔记中 "output:" 标记的作用
   - 深入理解了 inline 函数的原理与使用场景
 
+#### 2026-01-17：在本机安装并配置 msys2
+
+- 已在本机安装并更新 msys2（参见 https://www.msys2.org/），并验证本地 g++ 可用（示例路径： `C:\msys64\ucrt64\bin\g++.exe`）。
+- 已将仓库中 `.vscode` 的公司专用路径注释化，建议将本机路径写回 `c_cpp_properties.json` 或使用环境变量以便共享与复用。
+
+
 
 
 

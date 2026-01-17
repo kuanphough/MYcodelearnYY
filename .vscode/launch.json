@@ -20,8 +20,7 @@
             "environment": [],
             "externalConsole": true,     //true显示外置的控制台窗口，false显示内置终端
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",           //**这里是你环境中mingw的gdb.exe[与g++.exe程序相同路径文件名不同]的路径哦；注意不是编译器g++.exe的路径 **注意**
-            //"miDebuggerPath": "D:\\NoHair\\MSYS2\\ucrt64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",          
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

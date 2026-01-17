@@ -6,7 +6,6 @@
 		"type": "shell",  // 使用 shell 类型执行编译命令（VSCode 不支持 "cppbuild" 类型）
 		"label": "C/C++: g++.exe build active file",
 			"command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
-			//"command": "D:\\NoHair\\MSYS2\\ucrt64\\bin\\g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
@@ -16,7 +15,6 @@
 			],
 			"options": {
 				"cwd": "C:\\msys64\\ucrt64\\bin"
-				//"cwd": "D:\\NoHair\\MSYS2\\ucrt64\\bin"
 			},
 			"problemMatcher": [
 				{
@@ -38,7 +36,6 @@
 				"isDefault": true
 			},
 			"detail": "compiler: C:\\msys64\\ucrt64\\bin\\g++.exe"
-			//"detail": "compiler: D:\\NoHair\\MSYS2\\ucrt64\\bin\\g++.exe"
 		}
 	]
 }
