@@ -53,5 +53,6 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "cstring": "cpp"
-    }
+    },
+    "claudeCodeChat.permissions.yoloMode": true
 }
