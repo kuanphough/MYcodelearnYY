@@ -1,0 +1,83 @@
+{
+  "cookies": {
+    "__snaker__id": "KJADz55CwCfG3RrF",
+    "q_c1": "8889e5f7cf21403cb651055b6a4aab14|1758695598000|1758695598000",
+    "__zse_ck": "005_Att2FVdSdccu1GFroPuRP6BPDJFk0uGJWDvcaBGX3gpQE3vInDN0LvKO790jzcCFqAGvsov8u=tZVqskBQ6mQrY=DeG3JAXhpKyJU64yYRbL2Bsoop9wVHCJlDTAhmEg-2mUIJ1ubMemtKOhCC+JCvDmRuxPpWMsmNkxOIsjUeaxWkRLKRBWssWMKAs933tS0qOLOqMvxV0qlHqMgJa1RRx9/sLl/jpkwIni/k/XNKZB84XlX0s4Gll927vmFP2tR",
+    "_zap": "7ef24cf3-3357-4f73-b841-851ea2075169",
+    "_xsrf": "ef727f88-27c5-4645-b7cb-62778ede505b",
+    "d_c0": "RDBYkKcsNxyPTlEbmHZ4CxtkEFr7pN3MQoA=|1777519030",
+    "Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49": "1777519032",
+    "Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49": "1777519137",
+    "HMACCOUNT": "51BE5F7595F70AE9",
+    "captcha_session_v2": "2|1:0|10:1777519030|18:captcha_session_v2|88:dTYyZU5MMlVxUHE0RHRGSllJdzNybEpDOGRHaGljbTc5RSt5T3Qyc25GUkpKQkEwOWh4aVh4cTJiY1lXemh0ZQ==|6ac158007823e24e11981adbc5c76b9d5c42cdafe0c408afffe2a6555c58fa20",
+    "SESSIONID": "lXksxr34y0Hg0vnQlEGcikxP64u3yDwoAp3KXxufBLJ",
+    "DATE": "1749785678073",
+    "crystal": "U2FsdGVkX19Sihl7uiZFDSv8orn4XDfKuRQ2knEZYljSAwPV68aZ62rdSFpMDbq6cprjCVFBO8TZOtjMzdsk42U0nJQrdJoEGVaIaI0v/Z+aHcZKUqXlepiuCdU8OuG92VmPcB+hitpvrtkwGYN4jC9gtCP3/5al4Nv3aUObg9oP2tjoGXK1HR48kcdcLJYIf+4Nr8LeGhl+mPNBMeeb2ZXTAMxdN9TlTAQ+WynAJDUmJ1wSmygqPvkcXiIC0RuX",
+    "cmci9xde": "U2FsdGVkX1+2ra0yrHSDXL8bw2OFpzUKqBDXVrt8RhB/SNPnAAHGRheI8mkAGFcIiMfTy+j6GmXQHmS9NLyBDQ==",
+    "pmck9xge": "U2FsdGVkX1/IYO3vba/YocHGxJPcldo0JBEWBRFfKQU=",
+    "assva6": "U2FsdGVkX19TzlFnXVybeJidEuKAsT3D/EZgs58TN+g=",
+    "assva5": "U2FsdGVkX19PJBSiPPKQ6m4S7LiW65GVWzOiuClSeCtTkdBCZhiqKWrgplozliWuJLTcUhoGbW/fWDQIZfepDw==",
+    "gdxidpyhxdE": "fWTr%2FT%2BZxCz86%5C%5C4MOHhVuDXC2%2BATsZvqJ7cSnQAGa6z%2FoGhcChmHrhPSDnqLd5c4C1EfsryfRlw6y5EVQQWA1%5CIvubYDE%2FtVfiwaltMPoflEpPm%2F3ZjEmbykavhgUX265o3gLuecWkfMzUb5V9KtpGzODT6eClvbZ5f2RN%5CaWEE%5CnBN%3A1777519935993",
+    "vmce9xdq": "U2FsdGVkX1+cTyLvQkhbSKSgGp6bNJXDZsrUvYH9ZrMEfC/ZMrXUHE7axP8BsQ+MGESZc2w6OMazJE6znnxvKFPIO5AZKRK8yO0nQwH6MKdcY8+HVRe0nz4npSR1RNXZUrdy1alwT6/s/eUOCI4chY9XHVnQ6u+fJ1xYoiTplak=",
+    "z_c0": "2|1:0|10:1777519083|4:z_c0|92:Mi4xdEtzeUVnQUFBQUJFTUZpUXB5dzNIQ1lBQUFCZ0FsVk56QmZnYWdCZUt3cVR0NEJ6YmtYMTlGeG9CWlpNdkdueFpn|eff3433347b3a74b0617ce537f96deaaf17e7a4c4f73c134bb16358f4cd1a2b8",
+    "BEC": "5725bc0a8a749d6bef30389b0155cdd0"
+  },
+  "userInfo": {
+    "id": "e60684595f1677e506f80593fdb4c4c0",
+    "url_token": "deathmark-16",
+    "name": "kuanphough",
+    "use_default_avatar": false,
+    "avatar_url": "https://picx.zhimg.com/v2-e81de13f844673daefdc308fc6016ee8_xl.jpg?source=32738c0c&needBackground=1",
+    "avatar_url_template": "https://picx.zhimg.com/v2-e81de13f844673daefdc308fc6016ee8_l.jpg?source=32738c0c&needBackground=1",
+    "is_org": false,
+    "type": "people",
+    "url": "https://www.zhihu.com/api/v4/people/deathmark-16",
+    "user_type": "people",
+    "headline": "",
+    "headline_render": "",
+    "gender": -1,
+    "is_advertiser": false,
+    "ip_info": "IP 属地上海",
+    "vip_info": {
+      "is_vip": false,
+      "vip_type": 0,
+      "rename_days": "0",
+      "entrance_v2": null,
+      "rename_frequency": 0,
+      "rename_await_days": 0
+    },
+    "kvip_info": {
+      "is_vip": false
+    },
+    "answer_count": 1,
+    "question_count": 2,
+    "articles_count": 0,
+    "columns_count": 0,
+    "zvideo_count": 0,
+    "favorite_count": 12,
+    "pins_count": 0,
+    "voteup_count": 0,
+    "thanked_count": 3,
+    "line_comment_count": 1,
+    "line_like_count": 0,
+    "line_comment_only_count": 0,
+    "available_medals_count": 0,
+    "org_verify_status": null,
+    "uid": "1154567550330486784",
+    "default_notifications_count": 80,
+    "follow_notifications_count": 0,
+    "vote_thank_notifications_count": 0,
+    "messages_count": 172,
+    "creation_count": 3,
+    "is_realname": true,
+    "has_applying_column": false,
+    "has_add_baike_summary_permission": false,
+    "editor_info": [
+      "bio"
+    ],
+    "ai_assistant_info": null
+  },
+  "settings": {
+    "defaultSaveFolder": "F-Clippings/zhihu"
+  }
+}

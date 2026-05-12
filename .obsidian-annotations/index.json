@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "files": {
+    "SchoolMission/1.1.1假面剧本.md": {
+      "filePath": "SchoolMission/1.1.1假面剧本.md",
+      "sidecarPath": ".obsidian-annotations/schoolmission__1.1.1%E5%81%87%E9%9D%A2%E5%89%A7%E6%9C%AC.md.json",
+      "fileHash": "207b687dee9a4aea030b87f88998df7ace5d8351470f767739790134ee059289",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T14:17:05.319Z"
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "sidecarPath": ".obsidian-annotations/readme.md.json",
+      "fileHash": "7016bc0fb721448688defda6ea46d57d062f7b8e329f3b0cb12efc4523380fa6",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T14:21:29.132Z"
+    },
+    "C++/0.Note/1.CompilerAndEnvironment.md": {
+      "filePath": "C++/0.Note/1.CompilerAndEnvironment.md",
+      "sidecarPath": ".obsidian-annotations/c%2B%2B__0.note__1.compilerandenvironment.md.json",
+      "fileHash": "0a6cf334c97f00e8c8b109c5129094dc87d3d22d3a1680d9db2212d0f20c6964",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T16:10:11.930Z"
+    },
+    "C++/0.Note/5.ConstAndModifiers.md": {
+      "filePath": "C++/0.Note/5.ConstAndModifiers.md",
+      "sidecarPath": ".obsidian-annotations/c%2B%2B__0.note__5.constandmodifiers.md.json",
+      "fileHash": "7108041e7497850c52a17c4c8fd04ad9b96a719786b56ed935fd72e1ec60849f",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T15:51:32.140Z"
+    },
+    "F-Clippings/media-lib/url-ja37v35n.md": {
+      "filePath": "F-Clippings/media-lib/url-ja37v35n.md",
+      "sidecarPath": ".obsidian-annotations/f-clippings__media-lib__url-ja37v35n.md.json",
+      "fileHash": "44ae721a02686893b469fcc89ff5653e9aefe558592cbf1bc41da52d58638dd9",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T15:51:51.807Z"
+    },
+    "C++/0.Note/1.CompilerAndEnvironment-notes.md": {
+      "filePath": "C++/0.Note/1.CompilerAndEnvironment-notes.md",
+      "sidecarPath": ".obsidian-annotations/c%2B%2B__0.note__1.compilerandenvironment-notes.md.json",
+      "fileHash": "37b65d2f65db4656428a29225f60c564461f908c5a9a7dc8fd4617bbf682e2d2",
+      "highlightCount": 0,
+      "commentCount": 0,
+      "updatedAt": "2026-05-12T16:00:03.352Z"
+    }
+  }
+}

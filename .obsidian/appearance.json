@@ -1,1 +1,14 @@
-{}
+{
+  "accentColor": "#5e30eb",
+  "baseFontSize": 20,
+  "cssTheme": "Underwater",
+  "translucency": true,
+  "theme": "system",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "storyteller-lite-timeline",
+    "MCL Multi Column"
+  ],
+  "nativeMenus": true,
+  "showRibbon": true
+}

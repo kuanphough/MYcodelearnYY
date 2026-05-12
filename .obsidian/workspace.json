@@ -1,24 +1,66 @@
 {
   "main": {
-    "id": "13ea214a941a89d5",
+    "id": "bf5e2892f1a9feb7",
     "type": "split",
     "children": [
       {
-        "id": "cf7da1956c099b4a",
+        "id": "e6aaa11a75a4c66f",
         "type": "tabs",
+        "dimension": 32.650273224043715,
         "children": [
           {
-            "id": "fc9a730c2162b0af",
+            "id": "1462b44a9414e411",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "C++/0.Note/1.CompilerAndEnvironment.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "1.CompilerAndEnvironment"
+            }
+          },
+          {
+            "id": "ad8a9e32653f6f4f",
+            "type": "leaf",
+            "state": {
+              "type": "mx-vault-track",
+              "state": {
+                "file": "01-Attachment/ja37v35n5ln3jd8ycywp3di8.OWvU.zh-Hans.vtt",
+                "mx": {
+                  "json": {
+                    "mode": "transcript",
+                    "showTimestamp": true,
+                    "showWordHighlight": false
+                  }
+                }
+              },
+              "icon": "notepad-text",
+              "title": "ja37v35n5ln3jd8ycywp3di8.OWvU.zh-Hans"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e1eceeb320063052",
+        "type": "tabs",
+        "dimension": 67.34972677595628,
+        "children": [
+          {
+            "id": "c5cde7433b0e0ca4",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.youtube.com/watch?v=4fJBrditnJU",
+                "title": "CONST in C++",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "CONST in C++"
             }
           }
         ]
@@ -27,20 +69,21 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7873799a49cc4ef6",
+    "id": "c92724c8e974e3b1",
     "type": "split",
     "children": [
       {
-        "id": "c1beb2df9f6c2c40",
+        "id": "3cc30ea850edf2b2",
         "type": "tabs",
+        "dimension": 77.12765957446808,
         "children": [
           {
-            "id": "bc5ee1697b37ebd0",
+            "id": "028828127b281d7d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +91,7 @@
             }
           },
           {
-            "id": "56a4439604000986",
+            "id": "17e8d0c3404cade9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,73 +99,16 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "byModifiedTimeReverse"
               },
               "icon": "lucide-search",
               "title": "搜索"
             }
           },
           {
-            "id": "0debc11901b1be2e",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "a056add8117cf7f3",
-    "type": "split",
-    "children": [
-      {
-        "id": "d771cd9fea2a6fd2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f95b8b2b42287ed",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "README.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "README 的反向链接列表"
-            }
-          },
-          {
-            "id": "bbdedf3551850c33",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "README 的出链列表"
-            }
-          },
-          {
-            "id": "2392ed08f1ff4160",
+            "id": "ce2ec1fb2e24fcec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +123,7 @@
             }
           },
           {
-            "id": "da19937f8ebaa09d",
+            "id": "89c9b0ad15fa1bd6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,43 +137,172 @@
             }
           },
           {
-            "id": "ce352a3498ecd427",
+            "id": "d88d1a4c82762f1e",
+            "type": "leaf",
+            "state": {
+              "type": "axl-light-sidebar",
+              "state": {},
+              "icon": "axl-light-icon",
+              "title": "Axl Light"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f9222d5dc78fafae",
+        "type": "tabs",
+        "dimension": 22.872340425531913,
+        "children": [
+          {
+            "id": "b64d61c671851190",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C++/0.Note/1.CompilerAndEnvironment.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "1.CompilerAndEnvironment 的反向链接列表"
+            }
+          },
+          {
+            "id": "6d38f707f5c7b735",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C++/0.Note/1.CompilerAndEnvironment.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "1.CompilerAndEnvironment 的出链列表"
+            }
+          },
+          {
+            "id": "515a53f33c8f0062",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "a6240cfd103c5961",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "C++/0.Note/1.CompilerAndEnvironment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "1.CompilerAndEnvironment 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 320.50152587890625
+  },
+  "right": {
+    "id": "c4e025c3484331d6",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 390.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "bases:新建数据库": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
+      "switcher:打开快速切换": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "graph:查看关系图谱": false,
+      "fuzzy-chinese-pinyin:FuzzySearch": false,
+      "templater-obsidian:Templater": false,
+      "simple-mind-map:新建思维导图": false,
+      "axl-light:Open Axl Light": false,
+      "media-extended:打开媒体库": false,
+      "media-extended:打开媒体快速切换器": false,
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "fc9a730c2162b0af",
+  "active": "028828127b281d7d",
   "lastOpenFiles": [
+    "C++/0.Note/1.CompilerAndEnvironment.md",
+    "C++/0.Note/1.CompilerAndEnvironment-notes.md",
+    "01-Attachment/ja37v35n5ln3jd8ycywp3di8.OWvU.zh-Hans.vtt",
+    "F-Clippings/media-lib/url-ja37v35n.md",
+    "01-Attachment/mx-cover-youtube_4fJBrditnJU.jpg",
+    "01-Attachment",
+    "F-Clippings/media-lib",
+    "F-Clippings",
     "C++/0.Note/5.ConstAndModifiers.md",
-    "C++/0.Note/4.ArraysAndStrings.md",
-    "C++/0.Note/2.DataAndControl.md",
-    "C++/0.Note/1.CompilerAndEnvironment.md"
+    "C++/5.ConstAndModifiers/23.1.cpp",
+    "C++/5.ConstAndModifiers/23.2.cpp",
+    "README.md",
+    "SchoolMission/1.1.1假面剧本.md",
+    "YOLO",
+    "B-作品/2026-04-24 国之英豪.md",
+    "小说写作追踪.md",
+    "Home.md",
+    "A-Daily Note/yearly glance.base",
+    "B-作品/A-像素塔合约/二桃杀三士/从2020年末开始的新闻收集.md",
+    "F-Clippings/New Puritans (literary movement) - Wikipedia.md",
+    "A-Daily Note/2026/05/2026-05-11.md",
+    "B-作品/A-出发吧麦芬/麦芬正文/42-鸣沙凰煌.md",
+    "F-Clippings/道格玛95 - 维基百科，自由的百科全书.md",
+    "F-Clippings/本科经典算法Dijkstra，被证明是普遍最优了：最坏情况性能也最优！  论文频道  领研网.md",
+    "F-Clippings/【古埃及讲座】古埃及的魔法和恶魔学（哈佛大学）_哔哩哔哩_bilibili.md",
+    "F-Clippings/X86汇编语言风格比较 AT&T 和 Intel 风格.md",
+    "A-Daily Note/2026/2026-Q2.md",
+    "F-Clippings/Ægir - Wikipedia.md",
+    "A-Daily Note/2026/05/2026-05-12.md",
+    "B-作品/05-FinalPaper/认知的未完型：论 AI 幻觉在真实迁移下的必然性.md",
+    "B-作品/05-FinalPaper",
+    "send_fashion_summary_to_self.py",
+    "Excalidraw/Drawing 2026-05-09 20.01.29.excalidraw.md",
+    "B-作品/作品目录.md",
+    "YOLO/skills/maifen-outline-scaffold/SKILL.md",
+    "YOLO/skills/maifen-outline-scaffold/references/training-plan-4w.md",
+    "YOLO/skills/maifen-outline-scaffold/references/sop.md",
+    "01-Attachment/Pasted image 20260328201005.png",
+    "01-Attachment/Pasted image 20260413003220.png",
+    "01-Attachment/Pasted image 20260413003318.png",
+    "G-Archive/F-打零工/ccbc16/ccbc16.canvas",
+    "C-课堂笔记/课堂笔记总览.canvas",
+    "B-作品/E-已完结/科幻/开挂/开挂.canvas",
+    "_Z-图床/a6765c04-d11c-46a1-b0f4-dfd7a0d89fc4.png",
+    "_Z-图床/233cedfd771bb7147677dd465de32b58.png",
+    "_Z-图床/Pasted image 20250907203918.png",
+    "_Z-图床/QQ_1755012150548.png",
+    "_Z-图床/QQ_1755012094406.png",
+    "_Z-图床/QQ_1749971457736.png",
+    "B-作品/A-像素塔合约/像素塔地形.canvas",
+    "C-课堂笔记/分镜/Lesson 2【作业】.canvas",
+    "G-Archive/ccbc16/ccbc16.canvas",
+    "C-课堂笔记/博雅/分镜/Lesson 2【作业】.canvas",
+    "B-作品/A-出发吧麦芬/补充学习/中土世界/中土世界.canvas",
+    "B-作品/E-已完结/科幻/开挂.canvas",
+    "B-作品/A-出发吧麦芬/功能/麦芬map.canvas"
   ]
 }

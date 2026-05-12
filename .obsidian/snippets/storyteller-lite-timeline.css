@@ -1,0 +1,248 @@
+.storyteller-lite-page {
+    --stl-border: color-mix(in srgb, var(--background-modifier-border) 75%, transparent);
+    --stl-soft: color-mix(in srgb, var(--background-secondary) 78%, white 22%);
+    --stl-track: color-mix(in srgb, var(--interactive-accent) 24%, var(--text-normal) 12%);
+    --stl-dot: var(--interactive-accent);
+}
+
+.storyteller-lite-page .stl-timeline {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1rem;
+}
+
+.storyteller-lite-page .stl-timeline__header {
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--stl-border);
+    border-radius: 18px;
+    background:
+        linear-gradient(135deg, color-mix(in srgb, var(--background-primary) 82%, white 18%), var(--background-secondary));
+}
+
+.storyteller-lite-page .stl-timeline__header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.storyteller-lite-page .stl-timeline__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 0.55rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.storyteller-lite-page .stl-catalog {
+    display: grid;
+    gap: 0.6rem;
+    padding: 0.95rem 1.05rem;
+    border: 1px solid var(--stl-border);
+    border-radius: 18px;
+    background: color-mix(in srgb, var(--background-secondary) 70%, transparent);
+}
+
+.storyteller-lite-page .stl-catalog__label {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.03em;
+}
+
+.storyteller-lite-page .stl-catalog__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.storyteller-lite-page .stl-catalog__link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.34rem 0.72rem;
+    border-radius: 999px;
+    background: var(--background-primary);
+    border: 1px solid var(--stl-border);
+    color: var(--text-normal);
+    text-decoration: none;
+    transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.storyteller-lite-page .stl-catalog__link:hover {
+    transform: translateY(-1px);
+    background: color-mix(in srgb, var(--interactive-accent) 10%, var(--background-primary));
+    border-color: color-mix(in srgb, var(--interactive-accent) 36%, var(--stl-border));
+}
+
+.storyteller-lite-page .stl-era {
+    --stl-era-color: color-mix(in srgb, var(--interactive-accent) 20%, white 80%);
+    border: 1px solid var(--stl-border);
+    border-radius: 22px;
+    overflow: hidden;
+    background: var(--background-primary);
+    box-shadow: 0 14px 30px -24px rgba(0, 0, 0, 0.35);
+}
+
+.storyteller-lite-page .stl-era__header {
+    padding: 0.95rem 1.1rem;
+    background:
+        linear-gradient(90deg, var(--stl-era-color), color-mix(in srgb, var(--stl-era-color) 42%, transparent));
+    border-bottom: 1px solid var(--stl-border);
+}
+
+.storyteller-lite-page .stl-era__header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.storyteller-lite-page .stl-era__header p {
+    margin: 0.35rem 0 0;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.storyteller-lite-page .stl-era__list {
+    display: grid;
+    gap: 0;
+    padding: 0.35rem 0;
+}
+
+.storyteller-lite-page .stl-item {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 0.9rem;
+    padding: 0.9rem 1.1rem;
+}
+
+.storyteller-lite-page .stl-item + .stl-item {
+    border-top: 1px dashed var(--stl-border);
+}
+
+.storyteller-lite-page .stl-item__rail {
+    position: relative;
+    min-height: 100%;
+}
+
+.storyteller-lite-page .stl-item__rail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 13px;
+    width: 2px;
+    background: linear-gradient(180deg, var(--stl-track), transparent);
+}
+
+.storyteller-lite-page .stl-item:last-child .stl-item__rail::before {
+    bottom: 0.7rem;
+}
+
+.storyteller-lite-page .stl-item__dot {
+    position: relative;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    margin-top: 0.25rem;
+    border-radius: 999px;
+    border: 3px solid var(--background-primary);
+    background: var(--stl-dot);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--stl-dot) 18%, transparent);
+}
+
+.storyteller-lite-page .stl-item.is-milestone .stl-item__dot {
+    width: 14px;
+    height: 14px;
+    background: #c46b2c;
+    box-shadow: 0 0 0 4px rgba(196, 107, 44, 0.18);
+}
+
+.storyteller-lite-page .stl-item__body {
+    min-width: 0;
+}
+
+.storyteller-lite-page .stl-item__top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.storyteller-lite-page .stl-item__date {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-normal);
+}
+
+.storyteller-lite-page .stl-item__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.storyteller-lite-page .stl-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    background: var(--stl-soft);
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    line-height: 1.2;
+}
+
+.storyteller-lite-page .stl-badge--track {
+    background: color-mix(in srgb, var(--interactive-accent) 16%, transparent);
+    color: var(--text-normal);
+}
+
+.storyteller-lite-page .stl-badge--status {
+    background: color-mix(in srgb, var(--text-muted) 14%, transparent);
+}
+
+.storyteller-lite-page .stl-badge--milestone {
+    background: rgba(196, 107, 44, 0.14);
+    color: #9d541d;
+}
+
+.storyteller-lite-page .stl-item__title {
+    margin-top: 0.35rem;
+    font-size: 1.06rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.storyteller-lite-page .stl-item__title .internal-link {
+    color: var(--text-normal);
+    text-decoration: none;
+}
+
+.storyteller-lite-page .stl-item__facts,
+.storyteller-lite-page .stl-item__summary {
+    margin: 0.38rem 0 0;
+    line-height: 1.6;
+}
+
+.storyteller-lite-page .stl-item__facts {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+}
+
+.storyteller-lite-page .stl-item__summary {
+    color: var(--text-normal);
+    font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+    .storyteller-lite-page .stl-item {
+        grid-template-columns: 22px minmax(0, 1fr);
+        gap: 0.7rem;
+        padding: 0.85rem 0.8rem;
+    }
+
+    .storyteller-lite-page .stl-era__header,
+    .storyteller-lite-page .stl-timeline__header {
+        padding: 0.85rem 0.9rem;
+    }
+}

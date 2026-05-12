@@ -1,0 +1,11 @@
+{
+  "defaultHighlightColor": "blue",
+  "stickyWidth": 280,
+  "stickySide": "right",
+  "stickyCollapseWidth": 800,
+  "showLeaderLines": true,
+  "defaultAuthor": "KuP",
+  "backupFrequencyMinutes": 50,
+  "migrateOnRename": true,
+  "stickyNotesVisible": true
+}

@@ -1,0 +1,31 @@
+{
+  "queries": [
+    {
+      "createdAt": "2026/04/22 18:14:46",
+      "id": "202604221814460",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"NOT_CONTAIN\",\"value\":\"日记/炒股记录\"},\"relation\":\"AND\"},{\"type\":\"TAG\",\"value\":{\"operator\":\"NOT_CONTAIN\",\"value\":\"日记/学习记录\"},\"relation\":\"AND\"},{\"type\":\"LIST\",\"value\":{\"operator\":\"IS\",\"value\":\"LIST\"},\"relation\":\"AND\"},{\"type\":\"TAG\",\"value\":{\"operator\":\"NOT_CONTAIN\",\"value\":\"日记/小说写作记录\"},\"relation\":\"AND\"}]",
+      "title": "不许污染灵感",
+      "updatedAt": "2026/04/22 18:14:46",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2026/04/22 18:20:37",
+      "id": "202604221820371",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"日记/炒股记录\"},\"relation\":\"AND\"}]",
+      "title": "炒股吗妹妹",
+      "updatedAt": "2026/04/22 18:20:37",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2026/04/22 18:20:50",
+      "id": "202604221820502",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"日记/学习记录\"},\"relation\":\"AND\"}]",
+      "title": "开学第N课",
+      "updatedAt": "2026/04/22 18:20:50",
+      "userId": "Thino"
+    }
+  ]
+}

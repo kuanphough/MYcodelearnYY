@@ -1,0 +1,61 @@
+{
+  "bookmarks": [
+    {
+      "id": "-2046677302",
+      "name": "Bangumi 番组计划",
+      "url": "https://chii.in/FollowTheRabbit",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1737614460000,
+      "modified": 1737614460000
+    },
+    {
+      "id": "-1311648176",
+      "name": "Bangumi 番组计划",
+      "url": "https://chii.in/",
+      "description": "",
+      "category": [
+        "ROOT",
+        "surfing"
+      ],
+      "tags": "",
+      "created": 1737614243570,
+      "modified": 1737614243570
+    },
+    {
+      "id": "1307082721",
+      "name": "微信读书",
+      "url": "https://weread.qq.com/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1737539520000,
+      "modified": 1737614460000
+    },
+    {
+      "id": "2014068036",
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "A awesome note-taking tool",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1672840861051,
+      "modified": 1672840861052
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "A-Daily Note/模板",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "A-Daily Note/模板/scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "A-出发吧麦芬/星墟文物",
+      "template": "A-Daily Note/模板/星墟文物a.md"
+    },
+    {
+      "folder": "/",
+      "template": "A-Daily Note/模板/新页面.md"
+    },
+    {
+      "folder": "C-课堂笔记",
+      "template": "A-Daily Note/模板/计算机.md"
+    },
+    {
+      "folder": "C-观后列表/实体书摘",
+      "template": "A-Daily Note/模板/实体书.md"
+    },
+    {
+      "folder": "02-Permanent",
+      "template": "A-Daily Note/模板/卡片a.md"
+    },
+    {
+      "folder": "B-作品",
+      "template": "A-Daily Note/模板/作品.md"
+    },
+    {
+      "folder": "C-观后列表",
+      "template": "A-Daily Note/模板/计算机.md"
+    },
+    {
+      "folder": "F-Clippings",
+      "template": "A-Daily Note/模板/摘录模版.md"
+    },
+    {
+      "folder": "03-Founding",
+      "template": "A-Daily Note/模板/卡片b.md"
+    },
+    {
+      "folder": "A-Daily Note/炒股",
+      "template": "A-Daily Note/模板/个股模板.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [],
+  "intellisense_render": 1
+}
