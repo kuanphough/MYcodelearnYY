@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "C++/0.学习总览.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "0.学习总览"
             }
           }
         ]
@@ -110,7 +110,7 @@
       {
         "id": "f9222d5dc78fafae",
         "type": "tabs",
-        "dimension": 22.872340425531913,
+        "dimension": 22.87234042553191,
         "children": [
           {
             "id": "b64d61c671851190",
@@ -161,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "C++/0.学习总览.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "0.学习总览 的大纲"
             }
           }
         ],
@@ -187,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "bases:新建数据库": false,
@@ -207,14 +208,14 @@
   },
   "active": "c5cde7433b0e0ca4",
   "lastOpenFiles": [
-    "F-Clippings/media-lib/url-ja37v35n.md",
     "README.md",
+    "media-lib/url-ja37v35n.md",
     "C++/0.Note/1.CompilerAndEnvironment.md",
     "C++/0.Note/1.CompilerAndEnvironment-notes.md",
     "01-Attachment/ja37v35n5ln3jd8ycywp3di8.OWvU.zh-Hans.vtt",
     "01-Attachment/mx-cover-youtube_4fJBrditnJU.jpg",
     "01-Attachment",
-    "F-Clippings/media-lib",
+    "media-lib",
     "F-Clippings",
     "C++/0.Note/5.ConstAndModifiers.md",
     "C++/5.ConstAndModifiers/23.1.cpp",

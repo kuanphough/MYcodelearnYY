@@ -1,6 +1,6 @@
 {
   "__VERSION__": 2,
   "release.previous-version": "4.2.3",
-  "media-lib.folder-path": "F-Clippings/media-lib",
-  "link.hosted-prefer": "browser"
+  "link.hosted-prefer": "browser",
+  "media-lib.folder-path": "media-lib"
 }
